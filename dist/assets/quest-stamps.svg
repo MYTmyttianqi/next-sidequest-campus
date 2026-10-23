@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="200" viewBox="0 0 720 200" fill="none" role="img" aria-labelledby="stamps-title stamps-desc">
+  <title id="stamps-title">校园支线的三枚冒险印章</title>
+  <desc id="stamps-desc">原创可编辑印章：观察一片叶子、发现一封信、记录一段独属于今天的故事。每枚都有手工印刷质感的双线边框。</desc>
+  <g stroke="#345A48" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <g id="observe-stamp" transform="translate(120 100) rotate(-7)">
+      <circle r="70" stroke-dasharray="2 4"/><circle r="63"/><circle r="58" stroke-width=".6"/>
+      <path d="M-18 7C-36-22-10-37 25-35c-2 32-14 56-43 42Z" fill="#E6E9D8"/>
+      <path d="M-26 24 15-25M-10 3l-12-13m20 3-8-16m11 16 16 2M-8 6l22 2"/>
+      <text y="43" text-anchor="middle" fill="#345A48" stroke="none" font-family="system-ui,sans-serif" font-size="10" letter-spacing="3">认真看见</text>
+      <text y="-46" text-anchor="middle" fill="#345A48" stroke="none" font-family="ui-monospace,monospace" font-size="7" letter-spacing="2">01 / OBSERVE</text>
+    </g>
+    <g id="discover-stamp" transform="translate(360 100) rotate(5)" stroke="#C35D3E">
+      <path d="M-58-61h116v122H-58z" stroke-dasharray="3 4"/><path d="M-51-54H51V54H-51z"/><path d="M-46-49H46V49H-46z" stroke-width=".6"/>
+      <path d="M-31-14H31V22H-31z" fill="#F0E0CC"/><path d="m-31-14 31 24 31-24M-31 22l23-20m39 20L8 2"/>
+      <path d="m-7-26 7-12 7 12m-7-8v15M-37-28l-5-5m79 5 5-5"/>
+      <text y="41" text-anchor="middle" fill="#C35D3E" stroke="none" font-family="system-ui,sans-serif" font-size="10" letter-spacing="3">意外发现</text>
+      <text y="-41" text-anchor="middle" fill="#C35D3E" stroke="none" font-family="ui-monospace,monospace" font-size="7" letter-spacing="2">02 / DISCOVER</text>
+    </g>
+    <g id="create-stamp" transform="translate(600 100) rotate(-5)">
+      <path d="m0-75 65 37v76L0 75-65 38v-76L0-75Z" stroke-dasharray="2 4"/>
+      <path d="m0-67 58 33v68L0 67-58 34v-68L0-67Z"/>
+      <path d="M-26-25H23V26H-26z" fill="#E6E9D8"/><path d="M-15-12H11M-15-3H7M-15 6H2"/>
+      <path d="m0 16 21-30 8 6L8 22l-11 5 3-11Z" fill="#F3E5CF"/><path d="m18-10 8 6M0 16l8 6"/>
+      <text y="44" text-anchor="middle" fill="#345A48" stroke="none" font-family="system-ui,sans-serif" font-size="10" letter-spacing="3">留下故事</text>
+      <text y="-43" text-anchor="middle" fill="#345A48" stroke="none" font-family="ui-monospace,monospace" font-size="7" letter-spacing="2">03 / CREATE</text>
+    </g>
+  </g>
+</svg>

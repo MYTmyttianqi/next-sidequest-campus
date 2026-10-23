@@ -1,0 +1,122 @@
+/* Uncoated stock, writing paper and pressed covers. Original procedural textures. */
+:root{--paper:#f1e8d5;--sheet:#fcf5e6;--line:#d5cbb5;--paper-fibre:url('./assets/paper-fibers.svg');--paper-pressed:url('./assets/paper-pressed.svg')}
+body{
+  background-color:#efe6d2;
+  background-image:var(--paper-fibre),radial-gradient(ellipse at 22% 8%,#fff9e8aa,transparent 68%),linear-gradient(100deg,#cbbb9830,transparent 12%,transparent 88%,#cbbb9826);
+  background-size:420px 420px,100% 1200px,100% 100%;
+  background-repeat:repeat,no-repeat,no-repeat;
+}
+.site-header{border-bottom-color:#bcb69d}
+.site-header:after{background:#c56843;box-shadow:0 1px 0 #fff5dd88}
+.hero-art:after{content:"";position:absolute;inset:0;z-index:3;pointer-events:none;background-image:var(--paper-fibre);background-size:390px 390px;opacity:.48;mix-blend-mode:multiply}
+.campus-map{filter:drop-shadow(0 2px 1px #6c59321a) drop-shadow(5px 15px 12px #55401b1c)}
+.map-note{
+  background-color:#fcf6e7;
+  background-image:var(--paper-fibre),linear-gradient(100deg,#fffdf280,transparent 38%,#dccba42a);
+  background-size:340px 340px,100% 100%;
+  border-color:#d0c3a7;
+  box-shadow:0 1px 0 #fffdf0 inset,0 0 15px #cbb88c18 inset,1px 2px 1px #63502d14,4px 12px 15px #5c452329;
+}
+.map-note:before{content:"";position:absolute;top:-1px;right:-1px;width:24px;height:24px;background:linear-gradient(225deg,#e4d7ba 0 48%,#b4a17c70 49%,#fff8e8 53%,transparent 56%);pointer-events:none}
+.note-pin{background:repeating-linear-gradient(90deg,#c9b6818c,#c9b6818c 2px,#dfcea57a 2px,#dfcea57a 5px);box-shadow:0 1px 2px #7a5d2120}
+.paper-strip{
+  background-color:#e1e4ce;
+  background-image:var(--paper-fibre),linear-gradient(180deg,#ffffff18,#8f9c6e0c);
+  background-size:360px 360px,100% 100%;
+  border-color:#c3c6ac;
+  box-shadow:0 1px 0 #ffffed88 inset,0 -1px 0 #737f4512 inset,0 2px 4px #6c54200b;
+}
+.issue-pill,.chapter-tag,.chapter-kit,.field-kit,.recap-line,.book-end-summary,.mode-option,.photo-label{
+  background-image:var(--paper-fibre),linear-gradient(100deg,#fffdeb26,transparent 60%,#9c916a0a);
+  background-size:340px 340px,100% 100%;
+}
+.chapter-kit,.field-kit{border-color:#b9b99b;box-shadow:0 1px 0 #fffdf280 inset,1px 2px 3px #5d4b2710}
+.story-paper,.book-page,.info-dialog{
+  background-color:#fcf6e8;
+  background-image:linear-gradient(225deg,#ded0b2 0 14px,#b8a47e66 14.5px,transparent 15.5px),var(--paper-fibre),linear-gradient(100deg,#fffdf5b0,transparent 24%,transparent 78%,#d7c7a32b);
+  background-position:right top,left top,left top;
+  background-size:31px 31px,360px 360px,100% 100%;
+  background-repeat:no-repeat,repeat,no-repeat;
+  border-color:#cfc2a7;
+  border-radius:1px;
+  box-shadow:0 1px 0 #fffef2 inset,0 0 20px #bba37412 inset,0 2px 3px #78613a0e,3px 4px 0 -1px #eee5d0,4px 5px 0 -1px #c5b89b,7px 9px 0 -2px #e4dac2,8px 10px 0 -2px #cabda0,12px 17px 23px #533a1918;
+}
+.story-paper:before{
+  height:17px;
+  background-image:var(--paper-fibre),repeating-linear-gradient(90deg,#cdb78099,#cdb78099 2px,#e1cea175 2px,#e1cea175 5px);
+  background-size:180px 180px,100% 100%;
+  box-shadow:0 1px 1px #82642620;
+  clip-path:polygon(1% 0,98% 2%,100% 20%,98% 45%,100% 74%,98% 100%,1% 96%,3% 76%,0 54%,2% 29%);
+}
+.story-paper:after{
+  left:1px;right:1px;bottom:-4px;height:6px;z-index:0;
+  border:0;
+  background-color:#e5d9bc;
+  background-image:var(--paper-fibre);
+  background-size:360px 360px;
+  clip-path:polygon(0 0,100% 0,100% 64%,96% 80%,92% 56%,87% 82%,82% 65%,76% 89%,71% 62%,66% 79%,60% 59%,55% 90%,49% 64%,43% 82%,37% 58%,30% 87%,24% 62%,17% 82%,11% 61%,5% 84%,0 60%);
+}
+.story-paper h1,.hero h1,.section-heading h2,.book-heading h1{color:#244437}
+.scene-banner{background-color:transparent}
+.scene-banner>svg{filter:drop-shadow(0 1px 0 #ffffff33)}
+.text-input,.observation-input{
+  background-color:#fffbef;
+  background-image:var(--paper-fibre),linear-gradient(180deg,#a68b4825,transparent 7px);
+  background-size:380px 380px,100% 100%;
+  border-color:#bfb79b;
+  border-radius:1px;
+  box-shadow:inset 0 1px 2px #6b542013,0 1px 0 #fffef4;
+}
+.observation-input{
+  background-image:repeating-linear-gradient(transparent 0 35px,#9f976d26 35px 36px),var(--paper-fibre),linear-gradient(180deg,#a68b4815,transparent 8px);
+  background-size:100% 36px,380px 380px,100% 100%;
+  background-position:0 12px,0 0,0 0;
+}
+.text-input:focus,.observation-input:focus{background-color:#fffcf3}
+.choice-card{
+  background-color:#f4f0df;
+  background-image:var(--paper-fibre),linear-gradient(105deg,#ffffef66,transparent 60%,#b4a57b0d);
+  background-size:340px 340px,100% 100%;
+  border-color:#cbc5aa;border-radius:2px;
+  box-shadow:0 1px 0 #fffef1 inset,1px 2px 0 #dcd4bc,2px 4px 4px #735b2f0b;
+}
+.choice-card:before{border-right-color:#ddd4b7}
+.choice-card:has(input:checked){background-color:#e3e8d1;border-color:#788966;box-shadow:inset 0 0 0 1px #788966,1px 2px 0 #c5ceb1,2px 4px 4px #5d6b3912}
+.button.primary,.incoming-letter,.book-cover{
+  background-color:#23483c;
+  background-image:var(--paper-pressed),linear-gradient(105deg,#ffffff07,transparent 35%,#001f140e);
+  background-size:256px 256px,100% 100%;
+  background-blend-mode:soft-light,normal;
+  border-color:#345346;
+}
+.button.primary{box-shadow:0 1px 0 #d4dec220 inset,0 -1px 0 #001c2333 inset,1px 2px 2px #59451e15;border-radius:2px}
+.hero .button.primary{box-shadow:0 1px 0 #d4dec220 inset,3px 4px 0 #bfc5a8,4px 6px 7px #76603913}
+.button.primary:hover,.incoming-letter:hover{background-color:#2a5041}
+.incoming-letter{
+  box-shadow:0 1px 0 #b7c9ae22 inset,0 0 30px #031f1533 inset,4px 5px 0 #e3dbc5,5px 6px 0 #bcb498,9px 13px 17px #48371c1d;
+}
+.incoming-letter:before{border-color:#c4cfb248}
+.incoming-letter:after{border-color:#b7c8a32b;box-shadow:0 1px 0 #aabc9510}
+.book-cover{
+  box-shadow:0 1px 0 #c5d5b72c inset,inset 5px 0 10px #051f1a33,inset -2px 0 4px #001c1733,3px 4px 0 #d5cbb0,4px 5px 0 #a4987e,7px 10px 13px #49371c22;
+}
+.book-cover:before{border-color:#e0e5c737}.book-cover:after{border-color:#e0e5c74d}
+.book-page .book-art{background-color:#e8ead7;background-image:var(--paper-fibre);background-size:360px 360px;border-color:#c4c7ac;box-shadow:inset 0 1px 2px #5c663412,0 1px 0 #fff8e6}
+.book-page .book-photo{box-shadow:1px 2px 2px #66542e12,3px 5px 8px #66542e1f;border-color:#fffaf0}
+.book-end-summary{border-color:#bac2a5;box-shadow:0 1px 0 #ffffe980 inset,3px 4px 0 #d3d9c0,5px 8px 12px #57612e10}
+.how-section{background-color:#e6e8d4;background-image:var(--paper-fibre),linear-gradient(100deg,#ffffe924,transparent);background-size:420px 420px,100% 100%;box-shadow:0 1px 0 #ffffed88 inset;border-color:#c4c9ac}
+.site-footer{border-top-color:#bdb89f}
+@media(max-width:760px){
+  body{background-size:360px 360px,100% 850px,100% 100%}
+  .hero-art:after{background-size:360px 360px;opacity:.42}
+  .story-paper,.book-page,.info-dialog{background-size:27px 27px,340px 340px,100% 100%;box-shadow:0 1px 0 #fffef1 inset,0 0 18px #bba37412 inset,2px 3px 0 #eee5d0,3px 4px 0 #c5b89b,6px 8px 11px #533a1918}
+  .book-cover{background-size:256px 256px,100% 100%;box-shadow:0 1px 0 #c5d5b72c inset,inset 4px 0 9px #051f1a33,2px 3px 0 #d5cbb0,3px 4px 0 #a4987e,6px 8px 11px #49371c1c}
+  .scene-banner{background-color:#f2efdf;border-color:#d0cbb2;background-image:var(--paper-fibre);background-size:340px 340px}
+  .incoming-letter{box-shadow:0 1px 0 #b7c9ae22 inset,3px 4px 0 #e3dbc5,4px 5px 0 #bcb498,7px 10px 13px #48371c1b}
+}
+@media print{
+  body{background:#fff!important}
+  .book-page,.book-cover,.book-end-summary{background-image:none!important;box-shadow:none!important}
+  .book-page{background-color:white;border-color:#b9b4a5}
+  .book-cover{background-color:#23483c!important}
+}

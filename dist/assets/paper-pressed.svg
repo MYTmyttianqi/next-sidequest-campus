@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="384" height="384" viewBox="0 0 384 384">
+  <title>Pressed cover paper</title>
+  <desc>Transparent embossed pulp texture for a dark book cover, with seamless fixed-seed grain.</desc>
+  <defs>
+    <filter id="pressed" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB">
+      <feTurbulence type="fractalNoise" baseFrequency="0.51 0.69" numOctaves="3" seed="17" stitchTiles="stitch" result="grain"/>
+      <feColorMatrix in="grain" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  -1.25 0 0 0 .73" result="recess"/>
+      <feColorMatrix in="grain" type="matrix" values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  1.25 0 0 0 -.65" result="raised"/>
+      <feMerge>
+        <feMergeNode in="recess"/>
+        <feMergeNode in="raised"/>
+      </feMerge>
+    </filter>
+    <filter id="coverFibre" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB">
+      <feTurbulence type="fractalNoise" baseFrequency="0.075 0.82" numOctaves="2" seed="53" stitchTiles="stitch"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  1.7 0 0 0 -1.09"/>
+    </filter>
+  </defs>
+  <path fill="#000" d="M0 0h384v384H0z" filter="url(#pressed)" opacity=".65"/>
+  <path fill="#000" d="M0 0h384v384H0z" filter="url(#coverFibre)" opacity=".18"/>
+  <g fill="none" stroke="#fff" stroke-width=".55" stroke-linecap="round" opacity=".1">
+    <path d="m29 36 3.8-.6m62 9 2.9.8m70-18 4.5-.4m71 13 3.2.7m77 9 4.1-.5M50 103l4.3.7m70-13 3.2-.6m74 10 4.1.5m73-13 3.6-.8m58 20 3.1.6"/>
+    <path d="m24 166 3.1-.6m64 14 4.2.8m72-20 3.7-.4m79 11 3.3.6m69 11 4.6-.5M50 235l3.5.6m72-18 4.2-.7m71 16 3.1.6m72-12 4.7-.3m57 18 3.3.7"/>
+    <path d="m24 300 4.5-.5m65 15 3.1.7m71-21 4.1-.6m72 13 3.7.5m77 9 3.2-.7M50 367l3.2.5m71-19 4.5-.8m72 14 3.4.6m71-13 4.1-.4m60 18 3.6.7"/>
+  </g>
+</svg>

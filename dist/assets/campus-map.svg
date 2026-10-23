@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="600" viewBox="0 0 720 600" fill="none" role="img" aria-labelledby="map-title map-desc">
+  <title id="map-title">下一条支线 · 校园冒险地图</title>
+  <desc id="map-desc">一张手账风格的原创校园地图，画有教学楼、图书馆、操场、池塘和树木。橘红色虚线串起三个冒险节点，边缘放着纸条和校园卡。</desc>
+  <defs>
+    <pattern id="paper-grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" stroke="#173D36" stroke-opacity=".055" stroke-width=".7"/></pattern>
+    <pattern id="water-lines" width="28" height="13" patternUnits="userSpaceOnUse"><path d="M3 7c4-3 7 3 11 0s7 3 11 0" stroke="#73968B" stroke-width="1" opacity=".65"/></pattern>
+    <filter id="paper-shadow" x="-20%" y="-20%" width="150%" height="150%"><feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#173D36" flood-opacity=".08"/></filter>
+    <g id="tree"><path d="M0 9v13M-5 22H5" stroke="#244D40" stroke-width="1.6" stroke-linecap="round"/><path d="M-10 7C-16 0-10-8-5-8c-1-9 13-12 15-3 9-1 14 10 7 15 3 8-10 13-15 6-4 5-10 3-12-3Z" fill="#B7C5A8" stroke="#315844" stroke-width="1.4"/><path d="M0-6v16M0 3-6-1M0 1 7-4" stroke="#42644B" stroke-width="1.1" stroke-linecap="round"/></g>
+    <g id="pine"><path d="M0 10v12" stroke="#244D40" stroke-width="1.5"/><path d="m0-18-10 15h5l-10 15h30L5-3h5L0-18Z" fill="#82997B" stroke="#315844" stroke-width="1.2" stroke-linejoin="round"/></g>
+    <g id="bush"><path d="M-11 4c-6-7 2-14 8-9 3-10 16-6 15 2 7 3 4 11-3 11H-6c-4 0-6-1-5-4Z" fill="#C4CDAE" stroke="#617852" stroke-width="1.1"/></g>
+    <g id="bench"><path d="m-11-4 22-3M-10 0l22-3M-10 0v5M11-3v5" stroke="#62735C" stroke-width="1.8" stroke-linecap="round"/></g>
+    <g id="window"><path d="M0 0h8v10H0z" fill="#D7DBCB" stroke="#3F6356" stroke-width="1"/><path d="M4 0v10" stroke="#789184" stroke-width=".7"/></g>
+    <g id="route-node"><circle r="20" fill="#F7F1E5" stroke="#D8613F" stroke-width="1.6"/><circle r="14.5" fill="#D8613F"/></g>
+  </defs>
+
+  <!-- Folded map: every architectural and landscape element remains editable. -->
+  <g filter="url(#paper-shadow)">
+    <path d="m67 94 546-33 49 434-537 40-17-190Z" fill="#F6F0E3" stroke="#D8D3C5" stroke-width="1.2"/>
+    <path d="m67 94 546-33 49 434-537 40-17-190Z" fill="url(#paper-grid)"/>
+    <path d="m237 84 34 440M419 73l35 440" stroke="#D8D1C0" stroke-opacity=".6" stroke-width="1.1"/>
+    <path d="m244 84 34 440M426 73l35 440" stroke="#FFFDF6" stroke-opacity=".8" stroke-width="1.3"/>
+  </g>
+
+  <!-- Campus parcels and pedestrian walks. -->
+  <path d="m131 157 139-9 12 100-137 9Z" fill="#E7E5CF"/>
+  <path d="m371 122 186-11 10 126-180 12Z" fill="#E3E5CF"/>
+  <path d="m310 332 122-10 12 125-125 10Z" fill="#E2E5D0"/>
+  <path d="m125 342 126-9 12 124-126 10Z" fill="#E4E4CD"/>
+  <path d="m306 110 25 340M105 291l504-31M117 476l506-37" stroke="#D9D2BD" stroke-width="23"/>
+  <path d="m306 110 25 340M105 291l504-31M117 476l506-37" stroke="#FDF9EE" stroke-width="17"/>
+  <path d="m127 347 115-7M385 123l8 118M457 258l15 175M269 369l57-4" stroke="#D8D3C1" stroke-width="11"/>
+  <path d="m127 347 115-7M385 123l8 118M457 258l15 175M269 369l57-4" stroke="#FDF9EE" stroke-width="7"/>
+  <path d="m115 302 496-32" stroke="#667C67" stroke-width="1" stroke-dasharray="2 6" opacity=".4"/>
+
+  <!-- Library with a stepped roof and light isometric facades. -->
+  <g id="library" stroke="#234D40" stroke-linejoin="round">
+    <path d="m159 184 84-6 24 15-84 7Z" fill="#CBD0B3" stroke-width="1.5"/>
+    <path d="m159 184 24 16 3 49-24-15Z" fill="#B6C0A0" stroke-width="1.5"/>
+    <path d="m183 200 84-7 3 49-84 7Z" fill="#EFEBDA" stroke-width="1.5"/>
+    <path d="m170 176 62-5 17 11-63 5Z" fill="#E6E5D0" stroke-width="1.3"/>
+    <path d="m186 187 63-5 1 10-63 5Z" fill="#BDCAA8" stroke-width="1.2"/>
+    <path d="m170 176 16 11 1 10-16-10Z" fill="#9EB18E" stroke-width="1.2"/>
+    <path d="m215 224 17-1 1 22-17 1Z" fill="#8EA693" stroke-width="1.2"/>
+    <path d="m209 247 31-2 3 5-31 2Z" fill="#D1D5BC" stroke-width="1"/>
+    <g transform="translate(192 209) skewY(-5)"><use href="#window"/><use href="#window" x="15"/><use href="#window" x="45"/><use href="#window" x="60"/></g>
+    <path d="m166 199 7 4m-6 7 7 4m-6 7 7 4" stroke-width="2"/>
+  </g>
+  <text x="194" y="269" fill="#3F5D4F" font-family="system-ui,sans-serif" font-size="10" letter-spacing="2">图书馆</text>
+
+  <!-- Teaching building: open courtyard and classroom rows. -->
+  <g id="teaching-building" stroke="#234D40" stroke-linejoin="round">
+    <path d="m413 141 106-7 24 14-107 8Z" fill="#D0D2B8" stroke-width="1.4"/>
+    <path d="m436 156 107-8 3 47-106 8Z" fill="#F0EDDD" stroke-width="1.4"/>
+    <path d="m413 141 23 15 4 47-23-14Z" fill="#A6B797" stroke-width="1.4"/>
+    <path d="m427 133 79-5 14 8-79 6Z" fill="#ECE9D8" stroke-width="1.2"/>
+    <path d="m441 142 79-6 1 6-79 6Z" fill="#B4C09F" stroke-width="1.1"/>
+    <g transform="translate(446 164) skewY(-4)"><use href="#window"/><use href="#window" x="17"/><use href="#window" x="34"/><use href="#window" x="51"/><use href="#window" x="68"/></g>
+    <g transform="translate(447 183) skewY(-4)"><use href="#window"/><use href="#window" x="17"/><use href="#window" x="51"/><use href="#window" x="68"/></g>
+    <path d="m479 180 13-1 1 20-13 1Z" fill="#8AA18B" stroke-width="1.1"/>
+    <path d="m421 206 119-9 3 6-120 9Z" fill="#DADCC6" stroke-width="1.1"/>
+  </g>
+  <text x="455" y="230" fill="#3F5D4F" font-family="system-ui,sans-serif" font-size="10" letter-spacing="2">教学楼 B</text>
+
+  <!-- Athletic track and its field. -->
+  <g id="sports-ground" transform="translate(198 404) rotate(-4)">
+    <rect x="-54" y="-45" width="108" height="90" rx="40" fill="#D5AA87" stroke="#57745D" stroke-width="1.3"/>
+    <rect x="-47" y="-38" width="94" height="76" rx="34" stroke="#F7EDDA" stroke-width="1"/>
+    <rect x="-40" y="-31" width="80" height="62" rx="28" stroke="#F7EDDA" stroke-width="1"/>
+    <rect x="-32" y="-24" width="64" height="48" rx="21" fill="#A8B990" stroke="#F7EDDA" stroke-width="1"/>
+    <path d="M0-23v46M-31-17h9v34h-9m62-34h-9v34h9" stroke="#E8EBD9" stroke-width="1"/>
+    <circle r="9" stroke="#E8EBD9" stroke-width="1"/>
+    <path d="m-4-44 1 19M5-44l1 19M14-43l1 18" stroke="#F7EDDA" stroke-width=".8"/>
+  </g>
+  <text x="174" y="469" fill="#3F5D4F" font-family="system-ui,sans-serif" font-size="10" letter-spacing="2">旧操场</text>
+
+  <!-- Student studio and a small orange notice board. -->
+  <g id="student-studio" stroke="#315643" stroke-linejoin="round">
+    <path d="m344 356 60-4 17 11-61 5Z" fill="#A8B997" stroke-width="1.3"/>
+    <path d="m360 368 61-5 2 47-60 5Z" fill="#EFEBDA" stroke-width="1.3"/>
+    <path d="m344 356 16 12 3 47-16-12Z" fill="#BEC8AA" stroke-width="1.3"/>
+    <g transform="translate(371 376) skewY(-5)"><use href="#window"/><use href="#window" x="16"/><use href="#window" x="32"/></g>
+    <path d="m386 396 13-1 1 16-13 1Z" fill="#91A78B" stroke-width="1"/>
+    <path d="m337 421 25-2 1 17-25 2Z" fill="#D66C47" stroke-width="1.1"/>
+    <path d="m342 425 14-1m-14 5 10-1m-5 10v7m13-8v7" stroke="#F6ECD8" stroke-width="1.1"/>
+  </g>
+  <text x="359" y="456" fill="#3F5D4F" font-family="system-ui,sans-serif" font-size="10" letter-spacing="2">创作小屋</text>
+
+  <!-- Quiet pond, footbridge, reeds, and stepping stones. -->
+  <g id="pond">
+    <path d="M520 326c22-19 60-8 61 11s-4 29 13 43 11 43-16 45c-24 2-29-17-48-17s-35-3-37-22 8-20 7-35 9-18 20-25Z" fill="#BCD0C3" stroke="#789B89" stroke-width="1.3"/>
+    <path d="M520 326c22-19 60-8 61 11s-4 29 13 43 11 43-16 45c-24 2-29-17-48-17s-35-3-37-22 8-20 7-35 9-18 20-25Z" fill="url(#water-lines)"/>
+    <path d="m512 354 61 17-4 12-61-17Z" fill="#E6D9B7" stroke="#7F8365" stroke-width="1.2"/>
+    <path d="m519 357-3 11m11-9-3 11m11-9-3 11m11-9-3 11m11-9-3 11m11-9-3 11" stroke="#9A9C79" stroke-width="1"/>
+    <path d="m505 340-3-14m3 14 4-13m-4 13-8-7m91 77 4-18m-4 18-4-14m4 14 9-8" stroke="#68835F" stroke-width="1.3" stroke-linecap="round"/>
+    <ellipse cx="549" cy="396" rx="7" ry="4" fill="#8EAE8E" transform="rotate(-12 549 396)"/>
+    <path d="m550 391 2-3 2 3" fill="#F0D9BD" stroke="#AF8C71" stroke-width=".7"/>
+    <ellipse cx="486" cy="348" rx="3.5" ry="2" fill="#D3CFB8"/><ellipse cx="480" cy="336" rx="4" ry="2.5" fill="#D3CFB8"/>
+  </g>
+  <text x="526" y="449" fill="#3F5D4F" font-family="system-ui,sans-serif" font-size="10" letter-spacing="2">无名小池</text>
+
+  <!-- Plantings are symbol instances, so they can be moved individually. -->
+  <g id="campus-trees">
+    <use href="#tree" x="127" y="186"/><use href="#tree" x="133" y="233"/>
+    <use href="#tree" x="282" y="169"/><use href="#pine" x="279" y="216"/>
+    <use href="#tree" x="355" y="142"/><use href="#tree" x="359" y="192"/>
+    <use href="#pine" x="570" y="146"/><use href="#tree" x="579" y="203"/>
+    <use href="#tree" x="587" y="286"/><use href="#pine" x="606" y="314"/>
+    <use href="#tree" x="294" y="402"/><use href="#tree" x="293" y="443"/>
+    <use href="#tree" x="462" y="321"/><use href="#pine" x="466" y="399"/>
+    <use href="#tree" x="148" y="491"/><use href="#tree" x="202" y="486"/>
+    <use href="#bush" x="161" y="143"/><use href="#bush" x="192" y="140"/>
+    <use href="#bush" x="466" y="122"/><use href="#bush" x="502" y="120"/>
+    <use href="#bush" x="340" y="476"/><use href="#bush" x="374" y="474"/>
+    <use href="#bench" x="145" y="316"/><use href="#bench" x="368" y="310"/>
+    <use href="#bench" x="606" y="422" transform="rotate(80 606 422)"/>
+  </g>
+
+  <!-- A short adventure route: the three numbered stops. -->
+  <g id="adventure-route" stroke="#D8613F" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M157 329c22-11 46-17 58-35 14-21 43-22 66-15 24 8 42 6 52-13 13-24 3-49 29-62 25-12 47-4 66-20" stroke="#F8F1E4" stroke-width="9"/>
+    <path d="M157 329c22-11 46-17 58-35 14-21 43-22 66-15 24 8 42 6 52-13 13-24 3-49 29-62 25-12 47-4 66-20" stroke-width="3" stroke-dasharray="4 8"/>
+    <path d="m419 184 10-1-3 9" stroke-width="2"/>
+  </g>
+  <g id="three-stops" font-family="Georgia,serif" font-size="16" text-anchor="middle" fill="#FFFCF1">
+    <g transform="translate(155 329)"><use href="#route-node"/><text y="5.5">1</text></g>
+    <g transform="translate(293 281)"><use href="#route-node"/><text y="5.5">2</text></g>
+    <g transform="translate(437 179)"><use href="#route-node"/><text y="5.5">3</text></g>
+  </g>
+
+  <!-- Map marginalia. -->
+  <g id="compass" transform="translate(612 98) rotate(5)" stroke="#234D40" stroke-linejoin="round">
+    <path d="m0-16 5 17-5-3-5 3 5-17Z" fill="#234D40" stroke-width="1"/>
+    <path d="M0 0v14M-9 5H9" stroke-width="1"/>
+    <text x="0" y="-22" text-anchor="middle" fill="#234D40" stroke="none" font-family="Georgia,serif" font-size="11">N</text>
+  </g>
+  <g transform="translate(119 115) rotate(-4)" fill="#315643" font-family="ui-monospace,monospace" font-size="8" letter-spacing="1"><text>THE CAMPUS / 01</text><path d="M0 8H88" stroke="#8D9A7E" stroke-width=".8"/></g>
+  <g transform="translate(479 482) rotate(-4)" stroke="#6C7D65" stroke-width=".8"><path d="M0 0h75M0-3v6M25-3v6M50-3v6M75-3v6"/><text x="0" y="14" fill="#60765F" stroke="none" font-family="ui-monospace,monospace" font-size="8">0</text><text x="60" y="14" fill="#60765F" stroke="none" font-family="ui-monospace,monospace" font-size="8">100 m</text></g>
+  <path d="m597 240 3 6 7 1-5 5 1 7-6-4-6 3 2-7-4-5 7-1Z" fill="#D8613F" opacity=".8"/>
+
+  <!-- A hand-written assignment, loosely attached to the map. -->
+  <g id="mission-note" transform="translate(31 29) rotate(-8 95 58)" filter="url(#paper-shadow)">
+    <path d="M4 12H179v108l-12-4-12 5-13-4-12 4-14-4-13 4-14-4-13 4-13-4-14 4-13-4-13 4-19-4Z" fill="#FFF7D9" stroke="#D9CFAC" stroke-width="1"/>
+    <path d="M18 51h144M18 74h144M18 97h144" stroke="#DAD2B5" stroke-width=".8"/>
+    <path d="M25 12v103" stroke="#DBAA90" stroke-width=".8" opacity=".7"/>
+    <rect x="55" y="1" width="67" height="20" fill="#B8C9AA" fill-opacity=".55" transform="rotate(3 88 11)"/>
+    <text x="38" y="41" fill="#315343" font-family="system-ui,sans-serif" font-size="11" font-weight="600" letter-spacing="2">今天，走另一条路。</text>
+    <text x="38" y="66" fill="#65735A" font-family="system-ui,sans-serif" font-size="10">熟悉的地方，也有隐藏剧情。</text>
+    <path d="m39 87 4 4 8-10M60 88h77" stroke="#D8613F" stroke-width="1.5" stroke-linecap="round"/>
+    <text x="38" y="110" fill="#A17E54" font-family="ui-monospace,monospace" font-size="7.5" letter-spacing="1">FIELD NOTES / WEDNESDAY</text>
+  </g>
+
+  <!-- An original campus pass, never a real university identity document. -->
+  <g id="campus-pass" transform="translate(506 472) rotate(9 91 45)" filter="url(#paper-shadow)">
+    <rect width="178" height="100" rx="8" fill="#244D40"/>
+    <rect x="7" y="7" width="164" height="86" rx="4" stroke="#A5B89D" stroke-opacity=".5"/>
+    <path d="M119 0v100" stroke="#A5B89D" stroke-opacity=".3" stroke-dasharray="3 4"/>
+    <text x="17" y="27" fill="#F7F1E1" font-family="system-ui,sans-serif" font-size="12" font-weight="600" letter-spacing="3">支线通行证</text>
+    <text x="17" y="43" fill="#AFC3AC" font-family="ui-monospace,monospace" font-size="6.5" letter-spacing="1.6">SIDE QUEST / CAMPUS EDITION</text>
+    <path d="m20 62 7-7 7 7-7 7-7-7Zm15 11 4-4 4 4-4 4-4-4Z" fill="#D98258"/>
+    <path d="M49 61h48M49 70h36M17 85h78" stroke="#AFC3AC" stroke-width="1" stroke-opacity=".55"/>
+    <g transform="translate(148 47)" stroke="#E2DABD" stroke-width="1.2"><circle r="17"/><path d="m0-11 3.5 7 8 1-6 5.5L7 11 0 7l-7 4 1.5-8.5-6-5.5 8-1 3.5-7Z" fill="#D98258" stroke="none"/></g>
+    <text x="148" y="80" text-anchor="middle" fill="#E2DABD" font-family="ui-monospace,monospace" font-size="7" letter-spacing="1">NO. 001</text>
+  </g>
+</svg>

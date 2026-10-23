@@ -1,0 +1,46 @@
+{
+  "repository": "CaptExcellent/kits-library-assets",
+  "commit": "c67532ddf21cef61827de203344282cc9c2cecae",
+  "license": "CC0-1.0",
+  "files": [
+    {
+      "localname": "book.svg",
+      "original_path": "kits/interior-kit/BookSingleSide-Paper-H-M-Teal400.svg",
+      "original_url": "https://github.com/CaptExcellent/kits-library-assets/blob/c67532ddf21cef61827de203344282cc9c2cecae/kits/interior-kit/BookSingleSide-Paper-H-M-Teal400.svg",
+      "raw_url": "https://raw.githubusercontent.com/CaptExcellent/kits-library-assets/c67532ddf21cef61827de203344282cc9c2cecae/kits/interior-kit/BookSingleSide-Paper-H-M-Teal400.svg",
+      "validation": {
+        "script": false,
+        "external_references": false,
+        "embedded_images": false
+      }
+    },
+    {
+      "localname": "clock.svg",
+      "original_path": "kits/interior-kit/ClockRoundClassic-Plastic-H-S-Slate700.svg",
+      "original_url": "https://github.com/CaptExcellent/kits-library-assets/blob/c67532ddf21cef61827de203344282cc9c2cecae/kits/interior-kit/ClockRoundClassic-Plastic-H-S-Slate700.svg",
+      "raw_url": "https://raw.githubusercontent.com/CaptExcellent/kits-library-assets/c67532ddf21cef61827de203344282cc9c2cecae/kits/interior-kit/ClockRoundClassic-Plastic-H-S-Slate700.svg",
+      "validation": {
+        "script": false,
+        "external_references": false,
+        "embedded_images": false
+      }
+    },
+    {
+      "localname": "plant.svg",
+      "original_path": "kits/interior-kit/Plant pots.svg",
+      "original_url": "https://github.com/CaptExcellent/kits-library-assets/blob/c67532ddf21cef61827de203344282cc9c2cecae/kits/interior-kit/Plant%20pots.svg",
+      "raw_url": "https://raw.githubusercontent.com/CaptExcellent/kits-library-assets/c67532ddf21cef61827de203344282cc9c2cecae/kits/interior-kit/Plant%20pots.svg",
+      "validation": {
+        "script": false,
+        "external_references": false,
+        "embedded_images": false
+      }
+    },
+    {
+      "localname": "LICENSE.md",
+      "original_path": "LICENSE.md",
+      "original_url": "https://github.com/CaptExcellent/kits-library-assets/blob/c67532ddf21cef61827de203344282cc9c2cecae/LICENSE.md",
+      "raw_url": "https://raw.githubusercontent.com/CaptExcellent/kits-library-assets/c67532ddf21cef61827de203344282cc9c2cecae/LICENSE.md"
+    }
+  ]
+}

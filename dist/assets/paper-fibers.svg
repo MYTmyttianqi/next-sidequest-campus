@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>Uncoated paper fibres</title>
+  <desc>Transparent, monochrome, seamless paper grain. The paper colour is supplied by its background.</desc>
+  <defs>
+    <filter id="pulp" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB">
+      <feTurbulence type="fractalNoise" baseFrequency="0.72" numOctaves="3" seed="23" stitchTiles="stitch" result="grain"/>
+      <feColorMatrix in="grain" type="matrix" values="0 0 0 0 .25  0 0 0 0 .23  0 0 0 0 .19  -.52 0 0 0 .31"/>
+    </filter>
+    <filter id="fibres" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB">
+      <feTurbulence type="fractalNoise" baseFrequency="0.055 0.73" numOctaves="2" seed="41" stitchTiles="stitch" result="fibre"/>
+      <feColorMatrix in="fibre" type="matrix" values="0 0 0 0 .29  0 0 0 0 .26  0 0 0 0 .21  1.5 0 0 0 -.94"/>
+    </filter>
+  </defs>
+  <path fill="#000" d="M0 0h512v512H0z" filter="url(#pulp)" opacity=".43"/>
+  <path fill="#000" d="M0 0h512v512H0z" filter="url(#fibres)" opacity=".22"/>
+  <g fill="none" stroke="#6b5b45" stroke-width=".65" stroke-linecap="round" opacity=".13">
+    <path d="m26 38 5.2-.8m57 12 3.3 1.1m51-26 4.1.4m72 12 5.6-.8m89-12 3.5 1.2m66 21 4.7-.3m65 17 3.7 1.1"/>
+    <path d="m43 101 4.4-.7m61 13 2.2 1.3m50-26 6.1.4m80 15 3.5-.7m59-19 4.4 1.3m52 31 5.2-.9m73-17 3.9.6"/>
+    <path d="m18 167 4.8.5m63 17 3.6-1.3m53-26 5.4.6m79 14 3.7-1.1m71-17 5.1.5m68 26 3.6-1.4m66-15 5.8.2"/>
+    <path d="m51 227 3.6-.9m55 27 5.1.3m48-21 4.3 1m66 13 3.4-.7m71-23 4.8.6m54 27 5.5-1m67-12 3.2.7"/>
+    <path d="m24 294 5.1.6m69 17 3.3-1m55-27 4.7.4m68 18 5.6-.9m65-17 3.5 1.1m71 28 4.9-.6m65-18 3.8.8"/>
+    <path d="m43 361 3.9-.8m57 26 5.4.5m61-23 3.1 1m68 18 4.8-.9m66-21 3.6.8m58 31 5.2-.4m65-19 4.5.6"/>
+    <path d="m20 426 4.6.6m66 26 3.5-1m64-26 4.9.8m70 17 3.3-.7m72-26 5.2.4m51 31 3.8-1.2m77-16 4.4.7"/>
+    <path d="m49 486 4.1-.7m88-9 3.6 1m69 16 4.8-.5m90-12 3.4.9m82 12 5.1-.8m74-10 3.7.6"/>
+  </g>
+  <g fill="none" stroke="#fff" stroke-width=".7" stroke-linecap="round" opacity=".28">
+    <path d="m50 67 3.6.5m111-4 4.8-.7m92 10 3.9.7m111-9 4.7-.4m91 21 3.4.6M22 140l5.3-.4m91 9 3.5.7m99-5 4.6-.6m102 7 3.1.8m98-3 4.9-.5"/>
+    <path d="m69 205 4.6.6m110-9 3.3-.8m95 15 5.2.4m96-6 3.7-.5m99 12 4.4.7M31 273l3.7-.5m91 6 4.8.7m101-9 3.6-.6m95 8 5.1.4m96 0 3.4-.7"/>
+    <path d="m67 340 4.9.4m109-7 3.5-.7m99 14 4.4.6m98-9 3.8-.5m96 16 5.2.4M22 408l3.6-.6m104 4 4.9.4m91-8 3.4-.7m100 12 4.8.6m92-3 3.9-.4"/>
+    <path d="m68 474 4.2.5m107-11 3.7-.6m100 12 4.9.7m102-11 3.5-.5m97 14 4.7.3"/>
+  </g>
+</svg>

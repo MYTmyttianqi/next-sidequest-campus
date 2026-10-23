@@ -1,0 +1,42 @@
+{
+  "repository": "tabler/tabler-icons",
+  "commit": "a4ce1404bc6d24d3c365afe7b258d6bf6f48d62d",
+  "license": "MIT",
+  "files": [
+    {
+      "localname": "book.svg",
+      "original_path": "icons/outline/notebook.svg",
+      "original_url": "https://github.com/tabler/tabler-icons/blob/a4ce1404bc6d24d3c365afe7b258d6bf6f48d62d/icons/outline/notebook.svg"
+    },
+    {
+      "localname": "camera.svg",
+      "original_path": "icons/outline/camera.svg",
+      "original_url": "https://github.com/tabler/tabler-icons/blob/a4ce1404bc6d24d3c365afe7b258d6bf6f48d62d/icons/outline/camera.svg"
+    },
+    {
+      "localname": "compass.svg",
+      "original_path": "icons/outline/compass.svg",
+      "original_url": "https://github.com/tabler/tabler-icons/blob/a4ce1404bc6d24d3c365afe7b258d6bf6f48d62d/icons/outline/compass.svg"
+    },
+    {
+      "localname": "mail.svg",
+      "original_path": "icons/outline/mail.svg",
+      "original_url": "https://github.com/tabler/tabler-icons/blob/a4ce1404bc6d24d3c365afe7b258d6bf6f48d62d/icons/outline/mail.svg"
+    },
+    {
+      "localname": "sun.svg",
+      "original_path": "icons/outline/sun.svg",
+      "original_url": "https://github.com/tabler/tabler-icons/blob/a4ce1404bc6d24d3c365afe7b258d6bf6f48d62d/icons/outline/sun.svg"
+    },
+    {
+      "localname": "route.svg",
+      "original_path": "icons/outline/route.svg",
+      "original_url": "https://github.com/tabler/tabler-icons/blob/a4ce1404bc6d24d3c365afe7b258d6bf6f48d62d/icons/outline/route.svg"
+    },
+    {
+      "localname": "download.svg",
+      "original_path": "icons/outline/download.svg",
+      "original_url": "https://github.com/tabler/tabler-icons/blob/a4ce1404bc6d24d3c365afe7b258d6bf6f48d62d/icons/outline/download.svg"
+    }
+  ]
+}
