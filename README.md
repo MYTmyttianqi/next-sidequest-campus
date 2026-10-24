@@ -2,7 +2,7 @@
 
 校园日常，也藏着另一条支线。
 
-[在线体验](https://next-sidequest-campus.toasty-ape-9100.chatgpt.site) · 当前版本 v0.2.1
+[在线体验](https://mytmyttianqi.github.io/next-sidequest-campus/dist/) · 当前版本 v0.2.1
 
 第一章 **《被复制的星期三》** 是一个约 6—10 分钟的原创互动短篇。玩家观察身边的小细节，写下三句话，选择自己的路线，最后得到一份可保存的冒险小册子。
 
